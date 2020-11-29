@@ -15,7 +15,7 @@ for i in range(n):
            l = i
            for i in range(l,n):
              if c[i] != 0:
-                 p = 1
+                 p += 1
                  break
 
 if p == 0:
