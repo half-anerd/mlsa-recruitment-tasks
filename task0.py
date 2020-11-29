@@ -3,7 +3,7 @@ a = list(int(num) for num in input("Enter list a numbers:").strip().split())[:n]
 b = list(int(num) for num in input("Enter list b numbers:").strip().split())[:n]
 c = []    
 for i in range(n):
-   c.append(a[i] - b[i])
+   c.append(b[i] - a[i])
 k = 0
 p = 0
 for i in range(n):
